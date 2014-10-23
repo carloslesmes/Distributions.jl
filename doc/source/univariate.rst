@@ -3,7 +3,7 @@
 Distribuciones Univariadas
 ==========================
 
-*Distribuciones Univariadas* son las distribuciones cuyas formas de variabe son  ``Univariate`` (*es decir*, cada muestra es un escalar). Los tipos abstarctos para las distribuciones son:
+*Distribuciones Univariadas* son las distribuciones cuyas formas de variabe son  ``Univariate`` (*es decir*, cada muestra es un escalar). Los tipos abstractos para las distribuciones son:
 
 .. code-block:: julia
 
@@ -13,10 +13,10 @@ Distribuciones Univariadas
     typealias ContinuousUnivariateDistribution Distribution{Univariate, Continuous}
 
 
-Common Interface
+Interface común
 ------------------
 
-A series of methods are implemented for each univariate distribution, which provide useful functionalities such as moment computation, pdf evaluation, and sampling (*i.e.* random number generation).
+Una serie de métodos están implementados para cada una de las distribuciones univariadas, las cuales proveen funcionalidades tales como cálculo de momentos, evaluación de funciones de densidad y muestreo (*es decir* generación de números aleatorios).
 
 Computation of statistics
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
