@@ -1,9 +1,9 @@
 .. _univariates:
 
-Univariate Distributions
+Distribuciones Univariadas
 ==========================
 
-*Univariate distributions* are the distributions whose variate forms are ``Univariate`` (*i.e* each sample is a scalar). Abstract types for univariate distributions:
+*Distribuciones Univariadas* son las distribuciones cuyas formas de variabe son  ``Univariate`` (*es decir*, cada muestra es un escalar). Los tipos abstarctos para las distribuciones son:
 
 .. code-block:: julia
 
